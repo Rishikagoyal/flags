@@ -1,0 +1,17 @@
+.flag_img {
+    width: 50px;
+    height: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    column-gap: 2px;
+}
+
+.country {
+    text-align: center;
+}
