@@ -4,9 +4,9 @@ import '../App.css';
 const Grid = ({flagImg,country,alt}) => {
     return(
         <>
-        <div>
+        <div className='container'>
             <div className='grid-item'>
-            <img src={flagImg} alt={alt} />
+            <img src={flagImg} alt={alt} className='flag_img'/>
             <p className='country'>{country}</p>
             </div>
             

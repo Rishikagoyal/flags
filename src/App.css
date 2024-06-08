@@ -5,7 +5,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     margin-top: 3%;
     margin-left: 3%;
@@ -14,4 +14,13 @@
 
 .country {
     text-align: center;
+}
+
+.container{
+    display:flex;
+    border:2px solid black;
+    margin:5px;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
 }
